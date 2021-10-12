@@ -2,7 +2,7 @@ import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with by{' '}
+    © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered by{' '}
     <a href="https://www.linkedin.com/in/artur-ulfig-063243175/">Artur Ulfig</a>
     {/*
      * PLEASE READ THIS SECTION
